@@ -22,12 +22,12 @@ Ths camera communicates with SCCB which is a non standard I2C. I have added othe
 ***This is an untested prototype board that I have only just ordered.***
 
 
-##So what's it look like?
-###Dufus-Cam in 3D
+## So what's it look like?
+### Dufus-Cam in 3D
 ![Dufus-Cam 3D](./images/3D.png)
 
 ![Dufus-Cam bottom side](./images/Bottom.png)
 
-###Layout
+### Layout
 ![Dufus-Cam top side](./images/Top.png)
 
