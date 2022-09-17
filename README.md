@@ -7,7 +7,7 @@ Eventually this GIT will contain both open source hardware design and the esp-id
 
 I envision that the finaly product will live in a small box and work as a BLE camera showing small images on the screen with the higher deffinition images available ver bluetooth.
 
-##raison d'etre
+## raison d'etre
 
 My real goal in this project is to house the camera inside an extra large format film camera. That would be something like 20 x 18 inch film negatives.
 The camera would show what the film will eventually be exposed to and thus bring the digital world back into the analogue one. It will create a film camera with a historgram and other digital information normally available only in digital cameras.
