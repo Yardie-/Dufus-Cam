@@ -12,16 +12,22 @@ the matching capacitive touch panel.
 
 The schematic is still a mess but I will sort that out soon.
 
-* This is an untested prototype board that I have only just ordered. *
+**gotchas**
+
+So far I have found one possible problem.
+
+Ths camera communicates with SCCB which is a non standard I2C. I have added other I2C devices namely the touch sensor. This could be a problem, butt until I have the device in my hand I will not be sure.
 
 
-So what's it look like?
------------------------------------------------
+***This is an untested prototype board that I have only just ordered.***
+
+
+##So what's it look like?
+###Dufus-Cam in 3D
 ![Dufus-Cam 3D](./images/3D.png)
-
-![Dufus-Cam top side](./images/Top.png)
-
 
 ![Dufus-Cam bottom side](./images/Bottom.png)
 
+###Layout
+![Dufus-Cam top side](./images/Top.png)
 
