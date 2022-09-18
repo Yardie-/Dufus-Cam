@@ -1,0 +1,208 @@
+{
+  "uuid": "b3fecb5b31226bbf4749c97b88584cd6",
+  "path": "Offline/camera%20breakout",
+  "name": "camera breakout",
+  "content": "",
+  "created_at": "2022-09-18 09:37:06",
+  "updated_at": "2022-09-18 11:08:52",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "ecad3aa60175471d2e21808654707d97",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "154b66255b01a09bf1c88bb1ea89be78": 4,
+        "cdbd8a5bf0fa467cb968bb24e9e03393": 1,
+        "3d033fcb6d334c25b65a754834cf5aaf": 3,
+        "cab763dd885b416eb56f1f311250ad11": 1,
+        "09b17ac7cecb4e84ac7ff6b1da4123bf": 1,
+        "3a70e654f81b4814b1a688d0282f72ab": 1,
+        "93d3162124ce43c281d3373da8ce0d53": 1,
+        "198151efd918403daa85182224afddb3": 1,
+        "3fdcc1410cd54441ba4c61ecf3de1c4e": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10uF",
+          3,
+          "C0603_NEW",
+          "C21,C22,C24",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Manufacturer Part": "CL10A106KP8NNNC",
+            "BOM_Supplier Part": "C19702",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "d2266de9f8c44645a800bced0fbb15e8",
+            "uuid": "3d033fcb6d334c25b65a754834cf5aaf"
+          }
+        ],
+        [
+          "100nF",
+          4,
+          "C0603_NEW",
+          "C23,C25,C27,C28",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "CC0603KRX7R9BB104",
+            "BOM_Supplier Part": "C14663",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "d2266de9f8c44645a800bced0fbb15e8",
+            "uuid": "154b66255b01a09bf1c88bb1ea89be78"
+          }
+        ],
+        [
+          "15pF",
+          1,
+          "C0603",
+          "C26",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "CC0603JRNPO9BN150",
+            "BOM_Supplier Part": "C107037",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "93d3162124ce43c281d3373da8ce0d53"
+          }
+        ],
+        [
+          "Cam Connector",
+          1,
+          "FPC-SMD_AFC07-S24ECA-00",
+          "FPC2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C262643",
+            "BOM_Manufacturer": "JUSHUO",
+            "BOM_Manufacturer Part": "AFC07-S24ECA-00",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "1d23d9caaffb458d93f5ccfe78452c56",
+            "uuid": "198151efd918403daa85182224afddb3"
+          }
+        ],
+        [
+          "4.7kΩ",
+          1,
+          "R0603",
+          "R13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2907166",
+            "BOM_Manufacturer": "FOJAN(富捷)",
+            "BOM_Manufacturer Part": "FRC0603J472 TS",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "cdbd8a5bf0fa467cb968bb24e9e03393"
+          }
+        ],
+        [
+          "1kΩ",
+          1,
+          "R0603",
+          "R15",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2907113",
+            "BOM_Manufacturer": "FOJAN(富捷)",
+            "BOM_Manufacturer Part": "FRC0603J102 TS",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "3a70e654f81b4814b1a688d0282f72ab"
+          }
+        ],
+        [
+          "PM254-1-17-Z-8.5",
+          1,
+          "HDR-TH_17P-P2.54-V-F",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2897380",
+            "BOM_Manufacturer": "HCTL(华灿天禄)",
+            "BOM_Manufacturer Part": "PM254-1-17-Z-8.5",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "c450c102872f45e5a9d8cd7dc5b9064c",
+            "uuid": "3fdcc1410cd54441ba4c61ecf3de1c4e"
+          }
+        ],
+        [
+          "HX6306P122MR",
+          1,
+          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C296217",
+            "BOM_Manufacturer": "hengjiaxing",
+            "BOM_Manufacturer Part": "HX6306P122MR",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b3b82869fa924bae820e3a6cfb44d689",
+            "uuid": "09b17ac7cecb4e84ac7ff6b1da4123bf"
+          }
+        ],
+        [
+          "HX6206P282MR",
+          1,
+          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+          "U8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C296236",
+            "BOM_Manufacturer": "hengjiaxing",
+            "BOM_Manufacturer Part": "HX6206P282MR",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b3b82869fa924bae820e3a6cfb44d689",
+            "uuid": "cab763dd885b416eb56f1f311250ad11"
+          }
+        ]
+      ],
+      "updateTime": 1663465774,
+      "createTime": 1663465026,
+      "histories": [],
+      "created_at": "2022-09-18 09:37:06",
+      "updated_at": "2022-09-18 09:49:34"
+    },
+    {
+      "uuid": "75f32f5cdfdee2bfe9a4c37216302f59",
+      "puuid": "b3fecb5b31226bbf4749c97b88584cd6",
+      "title": "PCB_camera breakout",
+      "filename": "PCB_camera breakout.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "d2266de9f8c44645a800bced0fbb15e8": 7,
+        "f8151fdc728a41ebbc304e11d39e5437": 1,
+        "1d23d9caaffb458d93f5ccfe78452c56": 1,
+        "398691f1f785460098bbe5ee6590333c": 2,
+        "c450c102872f45e5a9d8cd7dc5b9064c": 1,
+        "b3b82869fa924bae820e3a6cfb44d689": 2
+      },
+      "BOM": [],
+      "updateTime": 1663470532,
+      "createTime": 1663465789,
+      "histories": [],
+      "created_at": "2022-09-18 09:49:49",
+      "updated_at": "2022-09-18 11:08:52"
+    }
+  ],
+  "sort": [],
+  "title": "camera breakout",
+  "foldername": "camera breakout",
+  "schfilename": "camera breakout.json",
+  "schfilemtime": 1663465774802
+}
