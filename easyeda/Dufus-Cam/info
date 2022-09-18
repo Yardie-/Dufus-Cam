@@ -4,7 +4,7 @@
   "name": "Dufus-Cam",
   "content": "",
   "created_at": "2022-09-14 19:41:43",
-  "updated_at": "2022-09-18 08:17:54",
+  "updated_at": "2022-09-18 14:29:31",
   "stick": "",
   "documents": [
     {
@@ -21,7 +21,7 @@
         "f80e29816fd30bb295222fb4f47bcc25": 1,
         "47d98c9c68d6170a5582756e1844827b": 5,
         "2eb23c43f9604c0b9f6d9c533cd9582a": 1,
-        "b210af5a1436310a86e8b108e2e5a90b": 7,
+        "b210af5a1436310a86e8b108e2e5a90b": 6,
         "303ea8960e30b8ac9e63b17d909c778d": 2,
         "3d033fcb6d334c25b65a754834cf5aaf": 7,
         "f5fb5a24e9edc515352eb800d4f925df": 1,
@@ -29,11 +29,9 @@
         "597701dbde98d3183fe5df5fb870ec57": 2,
         "542c771325914da99f441b62c23f7b18": 1,
         "66ae9b0f24cb4a9bbc96398e22dbc696": 1,
-        "10b020be8ed2438c91dad2f1058af148": 2,
+        "10b020be8ed2438c91dad2f1058af148": 1,
         "f340c5f9b4104cfd8d76b544ce885a27": 3,
         "40fb0295c7c74c728e5e0da71e502746": 1,
-        "89b262614a0248da8f88fd6e5a46d3b0": 3,
-        "4c39b1d925a31166302c0ac7e5f015fe": 1,
         "c56133456c1cb1228a307bca93252444": 1,
         "78c0506c008749eaace04994efe52a64": 2,
         "02aff2ff6e514454bd8e9eaa83aa0cc7": 3,
@@ -44,9 +42,7 @@
         "198151efd918403daa85182224afddb3": 2,
         "b7a68dbcec3ec4229fbdb46749f90d65": 3,
         "41de30dc150648edbccb700956cd8af0": 1,
-        "35bf193b69f54693bacb723dde3f8a81": 1,
         "eb1e04488991d3e67297eef9f4b1e99a": 1,
-        "f65d5d60176141a18e56930a3356f2d8": 1,
         "93d3162124ce43c281d3373da8ce0d53": 1,
         "3a70e654f81b4814b1a688d0282f72ab": 1,
         "09b17ac7cecb4e84ac7ff6b1da4123bf": 1,
@@ -109,21 +105,6 @@
             "BOM_JLCPCB Part Class": "Basic Part",
             "puuid": "f8151fdc728a41ebbc304e11d39e5437",
             "uuid": "3d033fcb6d334c25b65a754834cf5aaf"
-          }
-        ],
-        [
-          "470uF",
-          1,
-          "CAP-SMD_L7.3-W4.3-R-RD",
-          "C5",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "KEMET",
-            "BOM_Manufacturer Part": "T491D477M006AT",
-            "BOM_Supplier Part": "C122309",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "9f45479f99794f46ab701ddd33eccdde",
-            "uuid": "f65d5d60176141a18e56930a3356f2d8"
           }
         ],
         [
@@ -276,9 +257,9 @@
         ],
         [
           "AO3401A",
-          4,
+          5,
           "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR",
-          "F1,F3,F4,F7",
+          "F1,F3,F4,F5,F7",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "AOS",
@@ -287,6 +268,21 @@
             "BOM_JLCPCB Part Class": "Basic Part",
             "puuid": "2a819e02584e46aea9f04b619de61270",
             "uuid": "47d98c9c68d6170a5582756e1844827b"
+          }
+        ],
+        [
+          "AO3400A",
+          1,
+          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+          "F6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AOS",
+            "BOM_Manufacturer Part": "AO3400A",
+            "BOM_Supplier Part": "C20917",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "b3b82869fa924bae820e3a6cfb44d689",
+            "uuid": "f80e29816fd30bb295222fb4f47bcc25"
           }
         ],
         [
@@ -395,9 +391,9 @@
         ],
         [
           "10kΩ",
-          7,
+          6,
           "R0603",
-          "R1,R3,R9,R10,R14,R16,R31",
+          "R1,R9,R10,R14,R16,R31",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "UniOhm",
@@ -410,9 +406,9 @@
         ],
         [
           "100kΩ",
-          2,
+          5,
           "R0603",
-          "R2,R30",
+          "R2,R30,R34,R36,R37",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "UniOhm",
@@ -514,6 +510,21 @@
           }
         ],
         [
+          "62kΩ",
+          1,
+          "R0603",
+          "R35",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C304774",
+            "BOM_Manufacturer": "Guangdong Fenghua Advanced Tech",
+            "BOM_Manufacturer Part": "RS-03K623JT",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "2d4eaa3faf6a464e8b01605df7bde22d"
+          }
+        ],
+        [
           "10K",
           1,
           "RES-ARRAY-SMD_0603-4P-L1.6-W1.6-BL",
@@ -530,9 +541,9 @@
         ],
         [
           "TS-3025-A-A-B",
-          2,
+          1,
           "SW-SMD_L3.0-W2.5-P3.40-LS4.0-L",
-          "SW1,SW2",
+          "SW1",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C561514",
@@ -694,11 +705,11 @@
           }
         ]
       ],
-      "updateTime": 1663423811,
+      "updateTime": 1663482571,
       "createTime": 1663155704,
       "histories": [],
       "created_at": "2022-09-14 19:41:44",
-      "updated_at": "2022-09-17 22:10:11"
+      "updated_at": "2022-09-18 14:29:31"
     },
     {
       "uuid": "3fa75a2e7b0ca60142fd3427329fa3de",
@@ -710,6 +721,7 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "da5d0ce34ea84bd5b0e6b373202c73e3": 2,
         "f8151fdc728a41ebbc304e11d39e5437": 16,
         "d2266de9f8c44645a800bced0fbb15e8": 11,
         "dcb31334647b445c91de7ea2e4e8e388": 1,
@@ -733,8 +745,7 @@
         "09952c2799c54b76904e264324ada8f3": 1,
         "8d946c7f61b247e5a163a1477fd9299f": 3,
         "1bd77d8bf9974cc0b2cab14a47bde897": 1,
-        "6cb64e44de3b4167844f3a8293ad3818": 2,
-        "da5d0ce34ea84bd5b0e6b373202c73e3": 2
+        "6cb64e44de3b4167844f3a8293ad3818": 2
       },
       "BOM": [
         [
@@ -1398,16 +1409,16 @@
           }
         ]
       ],
-      "updateTime": 1663460274,
+      "updateTime": 1663482409,
       "createTime": 1663159533,
       "histories": [],
       "created_at": "2022-09-14 20:45:33",
-      "updated_at": "2022-09-18 08:17:54"
+      "updated_at": "2022-09-18 14:26:49"
     }
   ],
   "sort": [],
   "title": "Dufus-Cam",
   "foldername": "Dufus-Cam",
   "schfilename": "S3-Cam.json",
-  "schfilemtime": 1663423811775
+  "schfilemtime": 1663482571149
 }
