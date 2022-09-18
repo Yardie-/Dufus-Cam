@@ -47,6 +47,11 @@ Most things are in the folder named as such.
 The full BOM including LCSC part numbers for both boards are in the boms folder.
 Also the gerbers are ready to just upload directly to JLCPCB for fabrication.
 
+### How to add it to your local Easyeda projects
+
+It's pretty straight forward really. 
+
+The hardest part is finding your easyeda offline projects file. On Linux that's in ~/.easyeda/projects. Once you find it simply copy either of the folders in the easyeda folder to that directory. Then open easyeda and find it in your unopened projects. Hopefully it should all just work from there.
 
 ## So what's it look like?
 ### Dufus-Cam in 3D
