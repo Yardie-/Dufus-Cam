@@ -4,7 +4,7 @@
   "name": "Dufus-Cam",
   "content": "",
   "created_at": "2022-09-14 19:41:43",
-  "updated_at": "2022-09-20 07:09:15",
+  "updated_at": "2022-10-02 08:24:12",
   "stick": "",
   "documents": [
     {
@@ -15,7 +15,7 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "154b66255b01a09bf1c88bb1ea89be78": 9,
+        "154b66255b01a09bf1c88bb1ea89be78": 10,
         "2d4eaa3faf6a464e8b01605df7bde22d": 1,
         "5ff01e5b28266f76e3c6ac889a7fdd07": 4,
         "f80e29816fd30bb295222fb4f47bcc25": 1,
@@ -29,34 +29,35 @@
         "597701dbde98d3183fe5df5fb870ec57": 3,
         "542c771325914da99f441b62c23f7b18": 1,
         "66ae9b0f24cb4a9bbc96398e22dbc696": 1,
-        "10b020be8ed2438c91dad2f1058af148": 1,
         "f340c5f9b4104cfd8d76b544ce885a27": 3,
         "40fb0295c7c74c728e5e0da71e502746": 1,
-        "c56133456c1cb1228a307bca93252444": 1,
         "78c0506c008749eaace04994efe52a64": 1,
         "02aff2ff6e514454bd8e9eaa83aa0cc7": 3,
         "f1fdfd45322344b88507f2e6d7a4963d": 1,
         "31f5d01094a444b0af43f8df99e01cc9": 1,
         "90120144a29f250f52c5fae09d57661e": 2,
-        "bc2ffba1bdd546089833fb3017d48ebe": 2,
-        "198151efd918403daa85182224afddb3": 2,
-        "b7a68dbcec3ec4229fbdb46749f90d65": 3,
-        "41de30dc150648edbccb700956cd8af0": 1,
         "eb1e04488991d3e67297eef9f4b1e99a": 1,
         "93d3162124ce43c281d3373da8ce0d53": 1,
         "3a70e654f81b4814b1a688d0282f72ab": 1,
         "09b17ac7cecb4e84ac7ff6b1da4123bf": 1,
         "cab763dd885b416eb56f1f311250ad11": 1,
         "f5c0ada6197949d6b667ac45d43a940a": 1,
-        "ecc3a96ebc1b42f59fdc03bda4628084": 1,
-        "337a0439103c001f49c44c5cf71bde4b": 9,
         "cdbd8a5bf0fa467cb968bb24e9e03393": 1,
         "736876f24b5b418d94baa3b17df427eb": 1,
         "0cc096c30d4a4870a9c5ffb4a26d3fd4": 2,
         "980a62fcd18042ff8c8bd27d4699f1c6": 1,
-        "c996990367134df4854174670f257897": 1,
         "fd453c16f6271f785aed938d1e4bb9a9": 1,
-        "34a7b0686171401faf4e2ce1ec74ad50": 1
+        "34a7b0686171401faf4e2ce1ec74ad50": 1,
+        "198151efd918403daa85182224afddb3": 2,
+        "c56133456c1cb1228a307bca93252444": 1,
+        "bc2ffba1bdd546089833fb3017d48ebe": 2,
+        "b7a68dbcec3ec4229fbdb46749f90d65": 3,
+        "41de30dc150648edbccb700956cd8af0": 1,
+        "ecc3a96ebc1b42f59fdc03bda4628084": 1,
+        "337a0439103c001f49c44c5cf71bde4b": 9,
+        "35bf193b69f54693bacb723dde3f8a81": 1,
+        "4c39b1d925a31166302c0ac7e5f015fe": 1,
+        "5cceb873c3f847b487e379c6a53d7578": 2
       },
       "BOM": [
         [
@@ -68,9 +69,9 @@
         ],
         [
           "100nF",
-          8,
+          9,
           "C0603_NEW",
-          "C1,C3,C5,C23,C25,C27,C28,C32",
+          "C1,C3,C5,C14,C24,C26,C28,C29,C32",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "YAGEO",
@@ -85,7 +86,7 @@
           "10uF",
           4,
           "C0603_NEW",
-          "C2,C21,C22,C24",
+          "C2,C22,C23,C25",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "SAMSUNG",
@@ -127,10 +128,25 @@
           }
         ],
         [
-          "1uF",
+          "4.7uF",
+          2,
+          "C0603",
+          "C10,C11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C69335",
+            "BOM_Manufacturer": "Samsung Electro-Mechanics",
+            "BOM_Manufacturer Part": "CL10A475KA8NQNC",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "bc2ffba1bdd546089833fb3017d48ebe"
+          }
+        ],
+        [
+          "1uF/25v",
           9,
           "C0603",
-          "C10,C11,C14,C15,C16,C17,C18,C19,C20",
+          "C12,C13,C15,C16,C17,C18,C19,C20,C21",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer Part": "CL10B105KA8NNNC",
@@ -142,25 +158,10 @@
           }
         ],
         [
-          "4.7uF",
-          2,
-          "C0603",
-          "C12,C13",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C326580",
-            "BOM_Manufacturer": "YAGEO",
-            "BOM_Manufacturer Part": "CC0603KRX5R8BB475",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
-            "uuid": "bc2ffba1bdd546089833fb3017d48ebe"
-          }
-        ],
-        [
           "15pF",
           1,
           "C0603",
-          "C26",
+          "C27",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "YAGEO",
@@ -350,21 +351,6 @@
           }
         ],
         [
-          "Header-Male-2.54_1x2",
-          1,
-          "HDR-TH_2P-P2.54-V-M-1",
-          "H1",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "TE Connectivity",
-            "BOM_Manufacturer Part": "826629-2",
-            "BOM_Supplier Part": "C86471",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "7ae61b24ec5d431087f34ea7cfebbd9e",
-            "uuid": "c996990367134df4854174670f257897"
-          }
-        ],
-        [
           "47uH",
           1,
           "IND-SMD_L4.0-W4.0_LVS404018",
@@ -499,6 +485,36 @@
           }
         ],
         [
+          "3Ω",
+          1,
+          "R0603",
+          "R12-3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAJ030JT5E",
+            "BOM_Supplier Part": "C25237",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "4c39b1d925a31166302c0ac7e5f015fe"
+          }
+        ],
+        [
+          "0.47Ω",
+          1,
+          "R0603",
+          "R12-47",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "RALEC",
+            "BOM_Manufacturer Part": "RTT03R470FTP",
+            "BOM_Supplier Part": "C103895",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "35bf193b69f54693bacb723dde3f8a81"
+          }
+        ],
+        [
           "4.7kΩ",
           1,
           "R0603",
@@ -574,18 +590,18 @@
           }
         ],
         [
-          "TS-3025-A-A-B",
-          1,
-          "SW-SMD_L3.0-W2.5-P3.40-LS4.0-L",
-          "SW1",
+          "TC-1101DE-B-C",
+          2,
+          "SW-TH_L6.1-W5.0-P5.00",
+          "SW1,SW2",
           {
             "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C561514",
-            "BOM_Manufacturer": "XKB Connectivity",
-            "BOM_Manufacturer Part": "TS-3025-A-A-B",
+            "BOM_Supplier Part": "C561493",
+            "BOM_Manufacturer": "XKB Enterprise",
+            "BOM_Manufacturer Part": "TC-1101DE-B-C",
             "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "92a8c6ee5d2d4f5e990088a2621ce835",
-            "uuid": "10b020be8ed2438c91dad2f1058af148"
+            "puuid": "455df6174e6848c38437762015fdc294",
+            "uuid": "5cceb873c3f847b487e379c6a53d7578"
           }
         ],
         [
@@ -739,11 +755,11 @@
           }
         ]
       ],
-      "updateTime": 1663628550,
+      "updateTime": 1664666676,
       "createTime": 1663155704,
       "histories": [],
       "created_at": "2022-09-14 19:41:44",
-      "updated_at": "2022-09-20 07:02:30"
+      "updated_at": "2022-10-02 07:24:36"
     },
     {
       "uuid": "3fa75a2e7b0ca60142fd3427329fa3de",
@@ -755,18 +771,18 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "455df6174e6848c38437762015fdc294": 2,
         "8c26001d698a4647974b2643d485c0e3": 1,
         "da5d0ce34ea84bd5b0e6b373202c73e3": 1,
-        "398691f1f785460098bbe5ee6590333c": 21,
-        "d2266de9f8c44645a800bced0fbb15e8": 12,
-        "7ae61b24ec5d431087f34ea7cfebbd9e": 1,
         "f8151fdc728a41ebbc304e11d39e5437": 15,
+        "d2266de9f8c44645a800bced0fbb15e8": 13,
+        "1d23d9caaffb458d93f5ccfe78452c56": 2,
+        "398691f1f785460098bbe5ee6590333c": 21,
         "dcb31334647b445c91de7ea2e4e8e388": 1,
         "f6501821ae394e6bb4bd9e067da14090": 1,
         "2a819e02584e46aea9f04b619de61270": 5,
         "51c25bf971eb40b19f756dff4dc73cdb": 1,
         "b3b82869fa924bae820e3a6cfb44d689": 3,
-        "1d23d9caaffb458d93f5ccfe78452c56": 2,
         "a4613b89ccf34746ac088089e5eb544d": 1,
         "50dc3b6111d549ddb6686d77ab1ebdd8": 2,
         "e28e7df1e91043b2b01b5f07136d18b1": 1,
@@ -774,7 +790,6 @@
         "7568fee05bc44581b2c32625ae15b3f8": 1,
         "b216ea3651004b6f8aa0b495e3cce898": 3,
         "40128f2916484a71b10e367662746d66": 1,
-        "92a8c6ee5d2d4f5e990088a2621ce835": 1,
         "2d1aa8fed44c45e2bede85b175095c2a": 1,
         "daefbe13f13c4f838192caad5e2aecac": 1,
         "83d2c26c897548478611a7b637e39735": 3,
@@ -1445,16 +1460,16 @@
           }
         ]
       ],
-      "updateTime": 1663628955,
+      "updateTime": 1664670252,
       "createTime": 1663159533,
       "histories": [],
       "created_at": "2022-09-14 20:45:33",
-      "updated_at": "2022-09-20 07:09:15"
+      "updated_at": "2022-10-02 08:24:12"
     }
   ],
   "sort": [],
   "title": "Dufus-Cam",
   "foldername": "Dufus-Cam",
   "schfilename": "S3-Cam.json",
-  "schfilemtime": 1663628550156
+  "schfilemtime": 1664666676133
 }

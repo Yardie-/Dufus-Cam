@@ -4,7 +4,7 @@
   "name": "camera breakout",
   "content": "",
   "created_at": "2022-09-18 09:37:06",
-  "updated_at": "2022-09-18 11:16:30",
+  "updated_at": "2022-10-01 22:06:22",
   "stick": "",
   "documents": [
     {
@@ -22,8 +22,8 @@
         "09b17ac7cecb4e84ac7ff6b1da4123bf": 1,
         "3a70e654f81b4814b1a688d0282f72ab": 1,
         "93d3162124ce43c281d3373da8ce0d53": 1,
-        "198151efd918403daa85182224afddb3": 1,
-        "3fdcc1410cd54441ba4c61ecf3de1c4e": 1
+        "3fdcc1410cd54441ba4c61ecf3de1c4e": 1,
+        "198151efd918403daa85182224afddb3": 1
       },
       "BOM": [
         [
@@ -82,7 +82,7 @@
           "Cam Connector",
           1,
           "FPC-SMD_AFC07-S24ECA-00",
-          "FPC2",
+          "FPC",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C262643",
@@ -124,25 +124,25 @@
           }
         ],
         [
-          "PM254-1-17-Z-8.5",
+          "HX6206P282MR",
           1,
-          "HDR-TH_17P-P2.54-V-F",
+          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
           "U1",
           {
             "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C2897380",
-            "BOM_Manufacturer": "HCTL(华灿天禄)",
-            "BOM_Manufacturer Part": "PM254-1-17-Z-8.5",
+            "BOM_Supplier Part": "C296236",
+            "BOM_Manufacturer": "hengjiaxing",
+            "BOM_Manufacturer Part": "HX6206P282MR",
             "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "c450c102872f45e5a9d8cd7dc5b9064c",
-            "uuid": "3fdcc1410cd54441ba4c61ecf3de1c4e"
+            "puuid": "b3b82869fa924bae820e3a6cfb44d689",
+            "uuid": "cab763dd885b416eb56f1f311250ad11"
           }
         ],
         [
           "HX6306P122MR",
           1,
           "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
-          "U5",
+          "U2",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C296217",
@@ -154,26 +154,26 @@
           }
         ],
         [
-          "HX6206P282MR",
+          "PM254-1-17-Z-8.5",
           1,
-          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
-          "U8",
+          "HDR-TH_17P-P2.54-V-F",
+          "U3",
           {
             "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C296236",
-            "BOM_Manufacturer": "hengjiaxing",
-            "BOM_Manufacturer Part": "HX6206P282MR",
+            "BOM_Supplier Part": "C2897380",
+            "BOM_Manufacturer": "HCTL(华灿天禄)",
+            "BOM_Manufacturer Part": "PM254-1-17-Z-8.5",
             "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "b3b82869fa924bae820e3a6cfb44d689",
-            "uuid": "cab763dd885b416eb56f1f311250ad11"
+            "puuid": "c450c102872f45e5a9d8cd7dc5b9064c",
+            "uuid": "3fdcc1410cd54441ba4c61ecf3de1c4e"
           }
         ]
       ],
-      "updateTime": 1663470990,
+      "updateTime": 1664633182,
       "createTime": 1663465026,
       "histories": [],
       "created_at": "2022-09-18 09:37:06",
-      "updated_at": "2022-09-18 11:16:30"
+      "updated_at": "2022-10-01 22:06:22"
     },
     {
       "uuid": "75f32f5cdfdee2bfe9a4c37216302f59",
@@ -185,24 +185,24 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "c450c102872f45e5a9d8cd7dc5b9064c": 1,
+        "1d23d9caaffb458d93f5ccfe78452c56": 1,
+        "b3b82869fa924bae820e3a6cfb44d689": 2,
         "d2266de9f8c44645a800bced0fbb15e8": 7,
         "f8151fdc728a41ebbc304e11d39e5437": 1,
-        "1d23d9caaffb458d93f5ccfe78452c56": 1,
-        "398691f1f785460098bbe5ee6590333c": 2,
-        "c450c102872f45e5a9d8cd7dc5b9064c": 1,
-        "b3b82869fa924bae820e3a6cfb44d689": 2
+        "398691f1f785460098bbe5ee6590333c": 2
       },
       "BOM": [],
-      "updateTime": 1663470532,
+      "updateTime": 1664633016,
       "createTime": 1663465789,
       "histories": [],
       "created_at": "2022-09-18 09:49:49",
-      "updated_at": "2022-09-18 11:08:52"
+      "updated_at": "2022-10-01 22:03:36"
     }
   ],
   "sort": [],
   "title": "camera breakout",
   "foldername": "camera breakout",
   "schfilename": "camera breakout.json",
-  "schfilemtime": 1663470990886
+  "schfilemtime": 1664633182341
 }
