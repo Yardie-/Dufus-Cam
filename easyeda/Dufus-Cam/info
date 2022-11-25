@@ -4,7 +4,7 @@
   "name": "Dufus-Cam",
   "content": "",
   "created_at": "2022-09-14 19:41:43",
-  "updated_at": "2022-10-29 18:32:16",
+  "updated_at": "2022-11-19 15:14:30",
   "stick": "",
   "documents": [
     {
@@ -21,7 +21,7 @@
         "f340c5f9b4104cfd8d76b544ce885a27": 3,
         "40fb0295c7c74c728e5e0da71e502746": 1,
         "eb1e04488991d3e67297eef9f4b1e99a": 1,
-        "47d98c9c68d6170a5582756e1844827b": 5,
+        "47d98c9c68d6170a5582756e1844827b": 6,
         "3d033fcb6d334c25b65a754834cf5aaf": 6,
         "93d3162124ce43c281d3373da8ce0d53": 1,
         "3a70e654f81b4814b1a688d0282f72ab": 1,
@@ -248,9 +248,9 @@
         ],
         [
           "AO3401A",
-          5,
+          6,
           "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR",
-          "F1,F3,F4,F5,F7",
+          "F1,F2,F3,F4,F5,F7",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "AOS",
@@ -785,11 +785,11 @@
           }
         ]
       ],
-      "updateTime": 1667039536,
+      "updateTime": 1668211517,
       "createTime": 1663155704,
       "histories": [],
       "created_at": "2022-09-14 19:41:44",
-      "updated_at": "2022-10-29 18:32:16"
+      "updated_at": "2022-11-12 08:05:17"
     },
     {
       "uuid": "3fa75a2e7b0ca60142fd3427329fa3de",
@@ -801,18 +801,18 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "2a819e02584e46aea9f04b619de61270": 6,
+        "2d9839e42a7d4ce39f3604190380f933": 1,
         "da5d0ce34ea84bd5b0e6b373202c73e3": 1,
         "e28e7df1e91043b2b01b5f07136d18b1": 1,
+        "83d2c26c897548478611a7b637e39735": 3,
+        "398691f1f785460098bbe5ee6590333c": 21,
+        "7568fee05bc44581b2c32625ae15b3f8": 1,
         "43583875b34d432e942198f906796c56": 1,
         "f8151fdc728a41ebbc304e11d39e5437": 17,
         "a4613b89ccf34746ac088089e5eb544d": 2,
-        "2a819e02584e46aea9f04b619de61270": 5,
-        "398691f1f785460098bbe5ee6590333c": 21,
         "1c3428779dbd4bef9f112097fb0f5721": 2,
         "f3d2a2ecf658447dac746eb15158a989": 2,
-        "83d2c26c897548478611a7b637e39735": 3,
-        "7568fee05bc44581b2c32625ae15b3f8": 1,
-        "2d9839e42a7d4ce39f3604190380f933": 1,
         "455df6174e6848c38437762015fdc294": 2,
         "d2266de9f8c44645a800bced0fbb15e8": 12,
         "1d23d9caaffb458d93f5ccfe78452c56": 2,
@@ -1489,16 +1489,16 @@
           }
         ]
       ],
-      "updateTime": 1666331864,
+      "updateTime": 1668842070,
       "createTime": 1663159533,
       "histories": [],
       "created_at": "2022-09-14 20:45:33",
-      "updated_at": "2022-10-21 13:57:44"
+      "updated_at": "2022-11-19 15:14:30"
     }
   ],
   "sort": [],
   "title": "Dufus-Cam",
   "foldername": "Dufus-Cam",
   "schfilename": "S3-Cam.json",
-  "schfilemtime": 1667039536703
+  "schfilemtime": 1668211517696
 }
