@@ -4,7 +4,7 @@
   "name": "camera breakout",
   "content": "",
   "created_at": "2022-09-18 09:37:06",
-  "updated_at": "2022-10-01 22:06:22",
+  "updated_at": "2022-11-28 08:24:37",
   "stick": "",
   "documents": [
     {
@@ -22,8 +22,8 @@
         "09b17ac7cecb4e84ac7ff6b1da4123bf": 1,
         "3a70e654f81b4814b1a688d0282f72ab": 1,
         "93d3162124ce43c281d3373da8ce0d53": 1,
-        "3fdcc1410cd54441ba4c61ecf3de1c4e": 1,
-        "198151efd918403daa85182224afddb3": 1
+        "198151efd918403daa85182224afddb3": 1,
+        "07fce723527e48739d350bb77e9db046": 1
       },
       "BOM": [
         [
@@ -154,26 +154,26 @@
           }
         ],
         [
-          "PM254-1-17-Z-8.5",
+          "PM254-1-16-Z-8.5",
           1,
-          "HDR-TH_17P-P2.54-V-F",
-          "U3",
+          "HDR-TH_16P-P2.54-V-F-A",
+          "U4",
           {
             "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C2897380",
+            "BOM_Supplier Part": "C2897379",
             "BOM_Manufacturer": "HCTL(华灿天禄)",
-            "BOM_Manufacturer Part": "PM254-1-17-Z-8.5",
+            "BOM_Manufacturer Part": "PM254-1-16-Z-8.5",
             "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "c450c102872f45e5a9d8cd7dc5b9064c",
-            "uuid": "3fdcc1410cd54441ba4c61ecf3de1c4e"
+            "puuid": "064a3d301e4948b495597ceba036f1b3",
+            "uuid": "07fce723527e48739d350bb77e9db046"
           }
         ]
       ],
-      "updateTime": 1664633182,
+      "updateTime": 1669594545,
       "createTime": 1663465026,
       "histories": [],
       "created_at": "2022-09-18 09:37:06",
-      "updated_at": "2022-10-01 22:06:22"
+      "updated_at": "2022-11-28 08:15:45"
     },
     {
       "uuid": "75f32f5cdfdee2bfe9a4c37216302f59",
@@ -185,7 +185,7 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "c450c102872f45e5a9d8cd7dc5b9064c": 1,
+        "064a3d301e4948b495597ceba036f1b3": 1,
         "1d23d9caaffb458d93f5ccfe78452c56": 1,
         "b3b82869fa924bae820e3a6cfb44d689": 2,
         "d2266de9f8c44645a800bced0fbb15e8": 7,
@@ -193,16 +193,16 @@
         "398691f1f785460098bbe5ee6590333c": 2
       },
       "BOM": [],
-      "updateTime": 1664633016,
+      "updateTime": 1669595077,
       "createTime": 1663465789,
       "histories": [],
       "created_at": "2022-09-18 09:49:49",
-      "updated_at": "2022-10-01 22:03:36"
+      "updated_at": "2022-11-28 08:24:37"
     }
   ],
   "sort": [],
   "title": "camera breakout",
   "foldername": "camera breakout",
   "schfilename": "camera breakout.json",
-  "schfilemtime": 1664633182341
+  "schfilemtime": 1669594545452
 }

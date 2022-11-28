@@ -4,7 +4,7 @@
   "name": "Dufus-Cam",
   "content": "",
   "created_at": "2022-09-14 19:41:43",
-  "updated_at": "2022-11-27 06:16:53",
+  "updated_at": "2022-11-28 07:31:00",
   "stick": "",
   "documents": [
     {
@@ -15,9 +15,9 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "154b66255b01a09bf1c88bb1ea89be78": 9,
-        "b210af5a1436310a86e8b108e2e5a90b": 7,
-        "66ae9b0f24cb4a9bbc96398e22dbc696": 1,
+        "154b66255b01a09bf1c88bb1ea89be78": 10,
+        "b210af5a1436310a86e8b108e2e5a90b": 6,
+        "66ae9b0f24cb4a9bbc96398e22dbc696": 2,
         "f340c5f9b4104cfd8d76b544ce885a27": 3,
         "40fb0295c7c74c728e5e0da71e502746": 1,
         "eb1e04488991d3e67297eef9f4b1e99a": 1,
@@ -30,7 +30,6 @@
         "f5c0ada6197949d6b667ac45d43a940a": 1,
         "cdbd8a5bf0fa467cb968bb24e9e03393": 1,
         "980a62fcd18042ff8c8bd27d4699f1c6": 1,
-        "597701dbde98d3183fe5df5fb870ec57": 3,
         "34a7b0686171401faf4e2ce1ec74ad50": 1,
         "198151efd918403daa85182224afddb3": 2,
         "c56133456c1cb1228a307bca93252444": 1,
@@ -45,6 +44,7 @@
         "3c7727bf613a49358cedeb8c3455b885": 1,
         "9938d187a217410b9da3aa34461b4a4d": 1,
         "542c771325914da99f441b62c23f7b18": 2,
+        "597701dbde98d3183fe5df5fb870ec57": 3,
         "5ff01e5b28266f76e3c6ac889a7fdd07": 4,
         "f5fb5a24e9edc515352eb800d4f925df": 1,
         "fffb2d44dd744481935bfd5b34d16a49": 1,
@@ -58,7 +58,8 @@
         "78c0506c008749eaace04994efe52a64": 1,
         "2eb23c43f9604c0b9f6d9c533cd9582a": 1,
         "f80e29816fd30bb295222fb4f47bcc25": 1,
-        "2d4eaa3faf6a464e8b01605df7bde22d": 1
+        "2d4eaa3faf6a464e8b01605df7bde22d": 1,
+        "fd453c16f6271f785aed938d1e4bb9a9": 1
       },
       "BOM": [
         [
@@ -70,9 +71,9 @@
         ],
         [
           "100nF",
-          8,
+          9,
           "C0603_NEW",
-          "C1,C3,C14,C24,C26,C28,C29,C32",
+          "C1,C3,C5,C14,C24,C26,C28,C29,C32",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "YAGEO",
@@ -441,9 +442,9 @@
         ],
         [
           "10kΩ",
-          7,
+          6,
           "R0603",
-          "R1,R2,R9,R10,R14,R16,R25",
+          "R1,R9,R10,R14,R16,R25",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "UniOhm",
@@ -452,6 +453,21 @@
             "BOM_JLCPCB Part Class": "Basic Part",
             "puuid": "398691f1f785460098bbe5ee6590333c",
             "uuid": "b210af5a1436310a86e8b108e2e5a90b"
+          }
+        ],
+        [
+          "18kΩ",
+          1,
+          "R0603",
+          "R2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF1802T5E",
+            "BOM_Supplier Part": "C25810",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "fd453c16f6271f785aed938d1e4bb9a9"
           }
         ],
         [
@@ -606,9 +622,9 @@
         ],
         [
           "10K",
-          1,
+          2,
           "RES-ARRAY-SMD_0603-4P-L1.6-W1.6-BL",
-          "RN1",
+          "RN1,RN2",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C309680",
@@ -785,11 +801,11 @@
           }
         ]
       ],
-      "updateTime": 1669501013,
+      "updateTime": 1669589737,
       "createTime": 1663155704,
       "histories": [],
       "created_at": "2022-09-14 19:41:44",
-      "updated_at": "2022-11-27 06:16:53"
+      "updated_at": "2022-11-28 06:55:37"
     },
     {
       "uuid": "3fa75a2e7b0ca60142fd3427329fa3de",
@@ -801,12 +817,12 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "dcb31334647b445c91de7ea2e4e8e388": 2,
+        "d2266de9f8c44645a800bced0fbb15e8": 13,
+        "398691f1f785460098bbe5ee6590333c": 21,
         "2a819e02584e46aea9f04b619de61270": 6,
-        "2d9839e42a7d4ce39f3604190380f933": 1,
-        "da5d0ce34ea84bd5b0e6b373202c73e3": 1,
         "e28e7df1e91043b2b01b5f07136d18b1": 1,
         "83d2c26c897548478611a7b637e39735": 3,
-        "398691f1f785460098bbe5ee6590333c": 21,
         "7568fee05bc44581b2c32625ae15b3f8": 1,
         "43583875b34d432e942198f906796c56": 1,
         "f8151fdc728a41ebbc304e11d39e5437": 17,
@@ -814,9 +830,7 @@
         "1c3428779dbd4bef9f112097fb0f5721": 2,
         "f3d2a2ecf658447dac746eb15158a989": 2,
         "455df6174e6848c38437762015fdc294": 2,
-        "d2266de9f8c44645a800bced0fbb15e8": 12,
         "1d23d9caaffb458d93f5ccfe78452c56": 2,
-        "dcb31334647b445c91de7ea2e4e8e388": 1,
         "f6501821ae394e6bb4bd9e067da14090": 1,
         "51c25bf971eb40b19f756dff4dc73cdb": 1,
         "b3b82869fa924bae820e3a6cfb44d689": 3,
@@ -825,7 +839,9 @@
         "2d1aa8fed44c45e2bede85b175095c2a": 1,
         "daefbe13f13c4f838192caad5e2aecac": 1,
         "8d946c7f61b247e5a163a1477fd9299f": 3,
-        "1bd77d8bf9974cc0b2cab14a47bde897": 1
+        "1bd77d8bf9974cc0b2cab14a47bde897": 1,
+        "2d9839e42a7d4ce39f3604190380f933": 1,
+        "da5d0ce34ea84bd5b0e6b373202c73e3": 1
       },
       "BOM": [
         [
@@ -1489,16 +1505,16 @@
           }
         ]
       ],
-      "updateTime": 1668842070,
+      "updateTime": 1669591860,
       "createTime": 1663159533,
       "histories": [],
       "created_at": "2022-09-14 20:45:33",
-      "updated_at": "2022-11-19 15:14:30"
+      "updated_at": "2022-11-28 07:31:00"
     }
   ],
   "sort": [],
   "title": "Dufus-Cam",
   "foldername": "Dufus-Cam",
   "schfilename": "S3-Cam.json",
-  "schfilemtime": 1669501013869
+  "schfilemtime": 1669589737844
 }
