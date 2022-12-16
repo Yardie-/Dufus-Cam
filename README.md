@@ -28,7 +28,7 @@ It is not generally available with the touch screen however as I have purchased 
 the matching capacitive touch panel.
 
 
-***This is a partially tested prototype board. The epaper, touch screen, RGB LED array and the shutter pin work fine. The Camera breakout works and has been partially tested. ***
+***This is a partially tested prototype board. The epaper, touch screen, RGB LED array and the shutter pin work fine. The Camera breakout works and has been partially tested.***
 
 ### Camera breakout
 
