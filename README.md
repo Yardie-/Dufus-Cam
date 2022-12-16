@@ -23,20 +23,12 @@ I am currently working with the [2.7 GDEY027T91 epaper screens](https://www.good
 
 
 
-The **Dufus-Cam** board is designed to fit neatly behind that screen.
+The **Dufus-Cam** board is designed to fit neatly behind that screen this is possible if you use the S3-Wroom-IU and an external antenna.
 It is not generally available with the touch screen however as I have purchased 10 of these items they are happy to add
 the matching capacitive touch panel.
 
-The schematic is still a mess but I will sort that out soon.
 
-**gotchas**
-
-So far I have found one possible problem.
-
-Ths camera communicates with SCCB which is a non standard I2C. I have added other I2C devices namely the touch sensor. This could be a problem, however until I have the device in my hand I will not be sure.
-
-
-***This is an untested prototype board that I have only just ordered.***
+***This is a partially tested prototype board. The epaper, touch screen, RGB LED array and the shutter pin work fine. The Camera breakout works and has been partially tested. ***
 
 ### Camera breakout
 
