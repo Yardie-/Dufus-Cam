@@ -4,7 +4,7 @@
   "name": "Dufus-Cam",
   "content": "",
   "created_at": "2022-09-14 19:41:43",
-  "updated_at": "2022-12-16 15:59:32",
+  "updated_at": "2022-12-18 07:17:30",
   "stick": "",
   "documents": [
     {
@@ -16,12 +16,12 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "154b66255b01a09bf1c88bb1ea89be78": 13,
-        "b210af5a1436310a86e8b108e2e5a90b": 6,
+        "b210af5a1436310a86e8b108e2e5a90b": 5,
         "66ae9b0f24cb4a9bbc96398e22dbc696": 2,
         "f340c5f9b4104cfd8d76b544ce885a27": 3,
         "40fb0295c7c74c728e5e0da71e502746": 1,
         "eb1e04488991d3e67297eef9f4b1e99a": 1,
-        "47d98c9c68d6170a5582756e1844827b": 6,
+        "47d98c9c68d6170a5582756e1844827b": 5,
         "3d033fcb6d334c25b65a754834cf5aaf": 7,
         "93d3162124ce43c281d3373da8ce0d53": 1,
         "3a70e654f81b4814b1a688d0282f72ab": 1,
@@ -36,11 +36,10 @@
         "b7a68dbcec3ec4229fbdb46749f90d65": 3,
         "41de30dc150648edbccb700956cd8af0": 1,
         "ecc3a96ebc1b42f59fdc03bda4628084": 1,
-        "337a0439103c001f49c44c5cf71bde4b": 11,
+        "337a0439103c001f49c44c5cf71bde4b": 13,
         "35bf193b69f54693bacb723dde3f8a81": 1,
         "4c39b1d925a31166302c0ac7e5f015fe": 1,
-        "3c7727bf613a49358cedeb8c3455b885": 1,
-        "9938d187a217410b9da3aa34461b4a4d": 1,
+        "9938d187a217410b9da3aa34461b4a4d": 2,
         "542c771325914da99f441b62c23f7b18": 2,
         "597701dbde98d3183fe5df5fb870ec57": 3,
         "5ff01e5b28266f76e3c6ac889a7fdd07": 5,
@@ -67,7 +66,8 @@
         "0e4ccd272ef6429e8d5c6e4009007e6c": 1,
         "53e18f59d8fe49d3bf28e0a82d5e836d": 1,
         "10b020be8ed2438c91dad2f1058af148": 1,
-        "b6b23e8304a845b2bc69c016a31ee7f8": 1
+        "b6b23e8304a845b2bc69c016a31ee7f8": 1,
+        "0429d7fd297e46a189c95b36ef3ac7a7": 1
       },
       "BOM": [
         [
@@ -124,9 +124,9 @@
         ],
         [
           "1uF",
-          2,
+          4,
           "C0603",
-          "C6,C7",
+          "C6,C7,C36,C37",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer Part": "CL10B105KA8NNNC",
@@ -302,9 +302,9 @@
         ],
         [
           "AO3401A",
-          6,
+          5,
           "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR",
-          "F1,F2,F3,F4,F5,F7",
+          "F1,F2,F3,F4,F5",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "AOS",
@@ -391,18 +391,18 @@
           }
         ],
         [
-          "GPS",
+          "DW127R-11-07-34",
           1,
-          "CONN-TH_6P-P1.27_DEALON_DW127R-11-06-34",
+          "HDR-TH_7P-P1.27-V-F",
           "H1",
           {
             "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C2935876",
+            "BOM_Supplier Part": "C2935877",
             "BOM_Manufacturer": "DEALON(德艺隆)",
-            "BOM_Manufacturer Part": "DW127R-11-06-34",
+            "BOM_Manufacturer Part": "DW127R-11-07-34",
             "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "2d9839e42a7d4ce39f3604190380f933",
-            "uuid": "3c7727bf613a49358cedeb8c3455b885"
+            "puuid": "19213c20ac4a4560b4a814c5b5712084",
+            "uuid": "0429d7fd297e46a189c95b36ef3ac7a7"
           }
         ],
         [
@@ -495,9 +495,9 @@
         ],
         [
           "10kΩ",
-          6,
+          5,
           "R0603",
-          "R1,R9,R10,R14,R16,R25",
+          "R1,R9,R10,R14,R25",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "UniOhm",
@@ -795,9 +795,9 @@
         ],
         [
           "RT9080-33GJ5",
-          1,
+          2,
           "TSOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL",
-          "U4",
+          "U4,U11",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C841192",
@@ -944,11 +944,11 @@
           }
         ]
       ],
-      "updateTime": 1671177572,
+      "updateTime": 1671319043,
       "createTime": 1663155704,
       "histories": [],
       "created_at": "2022-09-14 19:41:44",
-      "updated_at": "2022-12-16 15:59:32"
+      "updated_at": "2022-12-18 07:17:23"
     },
     {
       "uuid": "d84413d4c2a538bdad1ecf90933573cf",
@@ -958,16 +958,47 @@
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1671159188,
+      "updateTime": 1671319050,
       "createTime": 1671159188,
       "histories": [],
       "created_at": "2022-12-16 10:53:08",
-      "updated_at": "2022-12-16 10:53:08"
+      "updated_at": "2022-12-18 07:17:30",
+      "components": {
+        "f8151fdc728a41ebbc304e11d39e5437": 21,
+        "43583875b34d432e942198f906796c56": 2,
+        "0d7249e448054e15a415a4672debb81c": 1,
+        "d2266de9f8c44645a800bced0fbb15e8": 16,
+        "c026b6d376074775b663b33fd8389c4c": 1,
+        "b3b82869fa924bae820e3a6cfb44d689": 2,
+        "92a8c6ee5d2d4f5e990088a2621ce835": 1,
+        "f65469eaf8924daba24add9de14977c8": 1,
+        "398691f1f785460098bbe5ee6590333c": 17,
+        "dcb31334647b445c91de7ea2e4e8e388": 2,
+        "2a819e02584e46aea9f04b619de61270": 4,
+        "e28e7df1e91043b2b01b5f07136d18b1": 1,
+        "83d2c26c897548478611a7b637e39735": 3,
+        "7568fee05bc44581b2c32625ae15b3f8": 1,
+        "a4613b89ccf34746ac088089e5eb544d": 2,
+        "1c3428779dbd4bef9f112097fb0f5721": 2,
+        "f3d2a2ecf658447dac746eb15158a989": 2,
+        "455df6174e6848c38437762015fdc294": 1,
+        "1d23d9caaffb458d93f5ccfe78452c56": 2,
+        "f6501821ae394e6bb4bd9e067da14090": 1,
+        "51c25bf971eb40b19f756dff4dc73cdb": 1,
+        "b216ea3651004b6f8aa0b495e3cce898": 3,
+        "40128f2916484a71b10e367662746d66": 1,
+        "2d1aa8fed44c45e2bede85b175095c2a": 1,
+        "daefbe13f13c4f838192caad5e2aecac": 1,
+        "8d946c7f61b247e5a163a1477fd9299f": 3,
+        "1bd77d8bf9974cc0b2cab14a47bde897": 1,
+        "19213c20ac4a4560b4a814c5b5712084": 1,
+        "da5d0ce34ea84bd5b0e6b373202c73e3": 1
+      }
     }
   ],
   "sort": [],
   "title": "Dufus-Cam",
   "foldername": "Dufus-Cam",
   "schfilename": "S3-Cam.json",
-  "schfilemtime": 1671177572960
+  "schfilemtime": 1671319044021
 }
